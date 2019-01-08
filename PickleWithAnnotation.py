@@ -4,6 +4,10 @@ import numpy as np
 import cv2
 import pickle
 
+if len(sys.argv) < 5:
+    print("Usage: python PickleWtihAnnotation.py [image_path] [annotation_path] [class-label kv pair path] [output_path]")
+    exit(1)
+
 image_path = sys.argv[1]
 annotation_path = sys.argv[2]
 kv_path = sys.argv[3]
