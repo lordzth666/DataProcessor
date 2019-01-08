@@ -7,4 +7,4 @@ class Config:
         self.source_path = argv[2]
         self.save_base_path = argv[3]
         self.filename = "train_batch_"
-        self.num_batches = 1
+        self.num_batches = 5
